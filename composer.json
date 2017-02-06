@@ -1,0 +1,35 @@
+{
+  "name": "invit/payum-postfinance-ecommerce",
+  "type": "library",
+  "description": "The Payum extension. It provides Postfinance Ecommerce payment integration.",
+  "keywords": ["payment", "postfinance", "ecommerce"],
+  "homepage": "https://www.weekend4two.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Toni Rudolf",
+      "email": "toni.rudolf@weekend4two.com"
+    }
+  ],
+  "require": {
+    "payum/core": "^1.3"
+  },
+  "require-dev": {
+    "payum/core": "^1.3@dev",
+    "phpunit/phpunit": "~4.0",
+    "symfony/phpunit-bridge": "~2.8|~3.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-0": { "Payum\\PostfinanceEcommerce": "" }
+  },
+  "target-dir": "Payum/PostfinanceEcommerce",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.3-dev"
+    }
+  }
+}
+
